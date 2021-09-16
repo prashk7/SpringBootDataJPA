@@ -2,7 +2,7 @@ pipeline{
     
     agent any
     tools {
-       maven 'M2_HOME'
+       maven 'MAVEN 3.8.2'
     }
     stages{
         stage("Welcome"){
