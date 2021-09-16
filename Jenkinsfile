@@ -1,9 +1,7 @@
 pipeline{
     
     agent any
-    tools {
-       maven 'MAVEN 3.8.2'
-    }
+   
     stages{
         stage("Welcome"){
             steps{
@@ -15,7 +13,7 @@ pipeline{
 		
 			steps{
 			
-				sh "mvn clean Package"
+				sh "./mvnw spring-boot:run"
 				
 			}
 		
