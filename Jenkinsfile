@@ -1,9 +1,9 @@
 pipeline{
     
     agent any
-	environment{
-		PATH = "/opt/maven3/bin:$PATH"
-	}
+    tools {
+        maven 'Maven 3.8.2'
+    }
     stages{
         stage("Welcome"){
             steps{
