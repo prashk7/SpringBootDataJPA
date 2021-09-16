@@ -7,7 +7,6 @@ pipeline{
             steps{
                 git 'https://github.com/prashk7/SpringBootDataJPA'
             }
-            
         }
 		stage("Maven Build"){
 		
