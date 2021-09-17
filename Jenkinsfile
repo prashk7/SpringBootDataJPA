@@ -17,15 +17,7 @@ pipeline{
 			}
 		
 		}
-	    
-	    stage("Test Stage"){
-		    
-		    
-	    }
-	    stage("Deploy Stage"){
-		    
-		    
-	    }
+	   
     }
     
     
